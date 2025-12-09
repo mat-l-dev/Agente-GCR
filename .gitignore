@@ -1,0 +1,130 @@
+# ============================================================================
+# CREDENCIALES Y DATOS SENSIBLES (CRÍTICO - NUNCA PUSHEAR)
+# ============================================================================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+config.json
+secrets.json
+credentials.json
+oauth_token.json
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+api_keys.txt
+secrets/
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================================================
+# VIRTUAL ENVIRONMENT
+# ============================================================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ============================================================================
+# IDE Y EDITORES
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# ============================================================================
+# OS ESPECÍFICO
+# ============================================================================
+.DS_Store
+Thumbs.db
+*.exe
+.AppleDouble
+.LSOverride
+
+# ============================================================================
+# LOGS
+# ============================================================================
+*.log
+*.log.*
+logs/
+
+# ============================================================================
+# TESTING Y COBERTURA
+# ============================================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+
+# ============================================================================
+# BASES DE DATOS Y ARCHIVOS TEMPORALES
+# ============================================================================
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.pickle
+*.tmp
+*.temp
+.cache/
+temp/
+tmp/
+
+# ============================================================================
+# DATOS DE PRUEBA Y COMPROBANTES
+# ============================================================================
+comprobantes/
+test_images/
+test_uploads/
+media/
+uploads/
+test_data/
+*.csv
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+temp/
+tmp/

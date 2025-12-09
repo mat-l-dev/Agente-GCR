@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-dotenv
+supabase
+# google-generativeai  # DESHABILITADO: Usar OpenAI en su lugar
+openai  # ChatGPT (versión >= 0.27)
+python-telegram-bot
+routeros-api
+requests
+jinja2
+python-multipart
+twilio
+pyperclip
